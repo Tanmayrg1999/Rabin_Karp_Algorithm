@@ -30,5 +30,7 @@ int main()
 	char text[20]="abcdabcabcdeac";
 	char pat[10]="ab";
 	int p=10;
+	cout<<"text here is :"<<text<<endl;
+	cout<<"pattern to be checked is :"<<pat<<endl;
 	search(pat,text,p);
 }
